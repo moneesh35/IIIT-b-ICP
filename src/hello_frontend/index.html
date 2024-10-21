@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Portfolio</title>
+    <base href="/" />
+    <link rel="icon" href="/favicon.ico" />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #000;
+        color: #fff;
+      }
+
+      /* Navbar styles */
+      nav {
+        background-color: #111;
+        padding: 10px 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+
+      nav h1 {
+        color: #fff;
+        font-size: 24px;
+        margin: 0;
+      }
+
+      nav ul {
+        list-style-type: none;
+        display: flex;
+        gap: 20px;
+      }
+
+      nav ul li {
+        display: inline;
+      }
+
+      nav ul li a {
+        color: #fff;
+        text-decoration: none;
+        font-size: 18px;
+        transition: color 0.3s ease;
+      }
+
+      nav ul li a:hover {
+        color: #ddd;
+      }
+
+      .section {
+        padding: 60px 0;
+        text-align: center;
+      }
+
+      h2 {
+        font-size: 30px;
+        margin-bottom: 20px;
+        color: #fff;
+      }
+
+      p {
+        font-size: 18px;
+        color: #bbb;
+        line-height: 1.6;
+      }
+
+      /* About Me box */
+      #about-box {
+        background-color: #222;
+        padding: 40px;
+        border-radius: 10px;
+        width: 50%;
+        margin: 0 auto;
+        color: #fff;
+      }
+
+      footer {
+        background-color: #111;
+        padding: 20px;
+        text-align: center;
+      }
+
+      footer p {
+        color: #bbb;
+      }
+
+      a {
+        color: #fff;
+        text-decoration: underline;
+      }
+
+      a:hover {
+        color: #ddd;
+      }
+    </style>
+  </head>
+
+  <body>
+    <nav>
+      <h1>Moneesh</h1>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <!-- About Me section in a box -->
+    <section id="about" class="section">
+      <div id="about-box">
+        <h2>About Me</h2>
+        <p>
+          Hello! I'm Moneesh, a web developer with a passion for creating
+          beautiful and functional websites. I specialize in front-end
+          development, and I love coding in HTML, CSS, and JavaScript.And have
+          keen intrest in learning web3 technology and blockchain development
+          I'm always eager to learn new technologies and improve my skills to
+          deliver high-quality work.
+        </p>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+      <div class="container">
+        <h2>Contact Me</h2>
+        <p>Feel free to reach out through email or connect on social media!</p>
+        <p>
+          Email:
+          <a href="mailto:moneesh5535@gmail.com">moneesh5535@gmail.com</a>
+        </p>
+        <p>
+          LinkedIn:
+          <a
+            href="https://www.linkedin.com/in/moneesh-s-31a703260/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+            target="_blank"
+            >Connect with me on LinkedIn</a
+          >
+        </p>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        <p>&copy; 2024 Moneesh. All Rights Reserved.</p>
+      </div>
+    </footer>
+  </body>
+</html>
